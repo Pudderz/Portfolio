@@ -3,7 +3,7 @@ body{
     height:100%;
     margin:0px;
 }
-
+/*
 #frontPage, #aboutMeAndContact{
     height: 100vh;
     width:100%;
@@ -64,4 +64,10 @@ li{
     margin: 2%;
     background-color: lightseagreen;
 
+} */
+
+.modal{max-height: 100%;}
+
+.modal-content{
+    position: relative;
 }
