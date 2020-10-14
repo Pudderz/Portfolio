@@ -71,3 +71,8 @@ li{
 .modal-content{
     position: relative;
 }
+
+.card.large{
+    height: 575px;
+    
+}
