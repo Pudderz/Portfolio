@@ -2,6 +2,7 @@ body{
     width: 100%;
     height:100%;
     margin:0px;
+    min-height: 100vh;
 }
 /*
 #frontPage, #aboutMeAndContact{
@@ -73,6 +74,38 @@ li{
 }
 
 .card.large{
+    
     height: 575px;
     
+}
+
+.tabs{
+    height: 100%;
+}
+.tabs .tab{
+    height: 100%;
+    line-height: inherit;
+}
+.block{
+    display: block;
+}
+
+@media(max-width: 900px){
+    nav .brand-logo{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media(max-width: 650px){
+    .card.large{
+    
+        height: 500px;
+        
+    }
+}
+
+.card .card-content p.chip {
+    margin: 2px 0px;
+    box-sizing: border-box;
 }
