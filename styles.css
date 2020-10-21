@@ -109,3 +109,50 @@ li{
     margin: 2px 0px;
     box-sizing: border-box;
 }
+ .carousel .carousel-item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+ 
+
+
+.modal .modal-content{
+    padding: 0px;
+    height: 100%;
+}
+.modal{
+    width: fit-content;
+    bottom: 4%
+}
+/* .modal > div > div.card-content > div.card-action{
+    /* position: absolute;
+    bottom: 0%; */
+
+.slider .slides li img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: min(50.64%, 50vh);
+}
+
+.slider .slides li.active {
+    position: relative;
+}
+.slider .indicators{
+    z-index: 2;
+}
+.slider{
+    height: fit-content !important;
+}
+
+.slider .slides{ 
+    background-color: white;
+    height: fit-content !important;
+}
+
