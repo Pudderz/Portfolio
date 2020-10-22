@@ -4,6 +4,11 @@ body{
     margin:0px;
     min-height: 100vh;
 }
+
+
+.width3{
+    width: 33%;
+}
 /*
 #frontPage, #aboutMeAndContact{
     height: 100vh;
@@ -72,7 +77,10 @@ li{
 .modal-content{
     position: relative;
 }
-
+.modal > div.card-content > div.card-action{
+    display: flex;
+    gap: 7px;
+}
 .card.large{
     
     height: 575px;
@@ -126,8 +134,9 @@ li{
     height: 100%;
 }
 .modal{
-    width: fit-content;
-    bottom: 4%
+    width: 1100px;
+    bottom: 2%;
+    max-width: 100%;
 }
 /* .modal > div > div.card-content > div.card-action{
     /* position: absolute;
@@ -138,15 +147,21 @@ li{
     background-repeat: no-repeat;
     width: 100%;
     height: 0;
-    padding-top: min(50.64%, 50vh);
+    padding-top: min(50.64%, 64vh);
 }
-
+.slider .slides li {
+    opacity: 1!important;
+}
 .slider .slides li.active {
     position: relative;
 }
 .slider .indicators{
     z-index: 2;
 }
+.slider .indicators .indicator-item{
+    top: 25px;
+}
+
 .slider{
     height: fit-content !important;
 }
@@ -155,4 +170,6 @@ li{
     background-color: white;
     height: fit-content !important;
 }
-
+.modal{
+    height: fit-content;
+}
