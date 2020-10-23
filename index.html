@@ -217,7 +217,8 @@
             
             <hr>
             <p>Feel free to contact me about anything via my email: mpudney2@gmail.com or this contact form</p>
-            <form method="post" name="form-contact" netlify >
+            <form method="post" name="form-contact"  data-netlify="true" netlify-honeypot="bot-field" >
+                <input type="hidden" name="form-name" value="form-contact" />
                 <label for="name">Name:
                     <input name="form-name" id="name"type="text" placeholder="Name">
                 </label>
