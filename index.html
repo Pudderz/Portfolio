@@ -217,15 +217,15 @@
             
             <hr>
             <p>Feel free to contact me about anything via my email: mpudney2@gmail.com or this contact form</p>
-            <form method="POST"name="contact" netlify data-netlify="true">
+            <form method="POST"name="form-contact" netlify >
                 <label for="name">Name:
-                    <input id="name"type="text" placeholder="Name">
+                    <input name="form-name" id="name"type="text" placeholder="Name">
                 </label>
-                <label for="name">Email:
-                    <input class="red-text "id="name" type="email" placeholder="Email">
+                <label for="email">Email:
+                    <input name="form-email"class="red-text "id="email" type="email" placeholder="Email">
                 </label>
                 <label for="message">Message:
-                    <textarea id="message" type="text" style="resize: vertical;"placeholder="Message"></textarea>
+                    <textarea name="form-message"id="message" type="text" style="resize: vertical;"placeholder="Message"></textarea>
                 </label>
                 <input class="btn large red" id="submitForm" type="submit">
             </form>
