@@ -217,7 +217,24 @@
             
             <hr>
             <p>Feel free to contact me about anything via my email: mpudney2@gmail.com or this contact form</p>
-            <form method="post" name="form-contact"  data-netlify="true" netlify-honeypot="bot-field" >
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" placeholder="Name"/></label>   
+                </p>
+                <p>
+                  <label>Your Email: <input type="email" name="email" id="email" type="email" placeholder="Email"/></label>
+                </p>
+                <p>
+                  <label>Message: <textarea id="message" name="message" style="resize: vertical;"placeholder="Message"></textarea></label>
+                </p>
+                <p>
+                  <button class="btn large red" id="submitForm" type="submit">Send</button>
+                </p>
+              </form>
+          
+          
+          
+            <!-- <form method="post" name="form-contact"  data-netlify="true" netlify-honeypot="bot-field" >
                 <input type="hidden" name="form-name" value="form-contact" />
                 <label for="name">Name:
                     <input name="form-name" id="name"type="text" placeholder="Name">
@@ -229,7 +246,7 @@
                     <textarea name="form-message"id="message" type="text" style="resize: vertical;"placeholder="Message"></textarea>
                 </label>
                 <input name="form-submit"class="btn large red" id="submitForm" type="submit">
-            </form>
+            </form> -->
             </div>
         </div>
         
