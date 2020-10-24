@@ -102,10 +102,19 @@ body{
 .slider .indicators{
     z-index: 2;
 }
-.slider .indicators .indicator-item{
-    top: 25px;
-}
 
+.slider .indicators .indicator-item {
+    bottom: 10px;
+    border-radius: 0;
+    width: 48px;
+    height: 4px;
+    opacity: 0.8;
+    box-shadow: 1px 0px 3px lightslategrey;
+}
+.slider .indicators .indicator-item.active {
+    background-color: rgb(216, 58, 54);
+    opacity: 1;
+}
 .slider{
     height: fit-content !important;
 }
