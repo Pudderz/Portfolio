@@ -84,7 +84,11 @@ body{
 /* .modal > div > div.card-content > div.card-action{
     /* position: absolute;
     bottom: 0%; */
-
+textarea{
+    font-size: 1.4em;
+    padding: 4px;
+    min-height: 50px;
+}
 .slider .slides li img{
     background-size: contain;
     background-repeat: no-repeat;
